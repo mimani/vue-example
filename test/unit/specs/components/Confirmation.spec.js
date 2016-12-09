@@ -6,7 +6,6 @@ describe('Confirmation', () => {
   let confirmation
   before(() => {
     vm = vueTest(Confirmation)
-    console.log(vm)
     console.log('vm.$el ' + vm.$el)
     confirmation = vm.$el.querySelector('#confirmation')
     // confirmation = vm.$('#confirmation')
