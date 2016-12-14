@@ -1,21 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Hey</title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/static/bootstrap.css" type="text/css">
-    <!-- <script src="./node_modules/jssorslider/js/jssor.slider.js"></script> -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/89588fe8fc.js"></script>
-    <script  href="/static/bootstrap.js"></script>
-  </head>
-  <body>
-    <div id="app"></div>
-<!--
-    <script src="/dist/client-vendor-bundle.js"></script>
-    <script src="/dist/client-bundle.js"></script> -->
-  </body>
-</html>
+
+					<!DOCTYPE html>
+					<html>
+					<head>
+					  <meta charset="utf-8">
+					  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+					  <meta name="viewport" content="width=device-width, initial-scale=1">
+					  <title>Carousel</title>
+					  <link rel="stylesheet" href="static/bootstrap.css">
+					</head>
+					<body>
+
+					<div class="container">
+
+					  <h1>Carousel <small>Bootstrap Visual Test</small></h1>
+					  <p>Also, the carousel shouldn't slide when its window/tab is hidden. Check the console log.</p>
+					  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+						  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						  <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+						  <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+						</ol>
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img alt="First slide" src="https://37.media.tumblr.com/tumblr_m8tay0JcfG1qa42jro1_1280.jpg">
+						  </div>
+						  <div class="carousel-item">
+							<img alt="Second slide" src="https://37.media.tumblr.com/tumblr_m8tazfiVYJ1qa42jro1_1280.jpg">
+						  </div>
+						  <div class="carousel-item">
+							<img alt="Third slide" src="https://38.media.tumblr.com/tumblr_m8tb2rVsD31qa42jro1_1280.jpg">
+						  </div>
+						</div>
+						<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						  <span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						  <span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					  </div>
+
+					</div>
+
+					<!-- JavaScript Includes -->
+					<script src="static/jquery.min.js"></script>
+					<script src="static/util.js"></script>
+					<script src="static/carousel.js"></script>
+					</body>
+					</html>
