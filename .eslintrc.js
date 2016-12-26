@@ -20,5 +20,11 @@ module.exports = {
     "indent": [2],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
+  },
+  "globals": {
+    "window": true,
+    "localStorage": true,
+    "location": true,
+    "$": true
   }
 }
